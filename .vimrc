@@ -51,9 +51,10 @@ set viminfo=
 
 set t_Co=256
 
-colorscheme molokai
-
 execute pathogen#infect()
 
+colorscheme molokai_dark
 map <F2> :NERDTreeToggle<CR>
+
+let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 
